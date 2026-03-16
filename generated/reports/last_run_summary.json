@@ -1,0 +1,5 @@
+{
+  "script_path": "generated/playwright_tests/test_ai_generated.py",
+  "test_cases": "| Test Case ID | Scenario | Steps | Expected Result |\n|--------------|-----------|-------|-----------------|\n| 1            | Valid login with correct credentials | Enter username, password. | Login is successful with username and password. |\n| 2            | Invalid login with incorrect credentials | Enter username, password. | Authentication error: Invalid credentials. |\n| 3            | Invalid login with empty username | Enter username, password. | Validation error: Username cannot be empty. |\n| 4            | Login with locked account | Enter username, password. | Authentication error: Account is locked. |\n\nEdge Cases:\n\n5. Invalid password should not return any error message.\n6. Empty username should not login.\n7. Password should be hashed for security reasons.\n\nNote: The actual implementation of the test cases and steps may vary based on the specific implementation details of your system.\n",
+  "generated_at": "2026-03-13T07:16:23.220649Z"
+}
